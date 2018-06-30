@@ -1,0 +1,121 @@
+body, div, p,
+h1, h2, h3, h4, h5, h6,
+dl, dt, dd, ul, ol, li,
+table, caption, th, td,
+form, fieldset, input, textarea, select,
+pre, address, blockquote,
+embed, object {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.head {
+    width: 1040px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+p.logo {
+    float:left;
+    margin: 0 auto;
+    height: 58px;
+}
+
+div.inner {
+    float:right;
+    margin: 7px auto 0;
+    height: 46px;
+}
+
+ul.none {
+    display: inline-block;
+    position: relative;
+    padding-right: 10px;
+    height: 46px;
+}
+
+ul .inner-link + .inner-link>div>a {
+    border-left: 1px solid #ccc;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(204, 204, 204);
+    padding-left: 5px;
+}
+
+ul.none > li {
+    list-style-type: none;
+    float: left;
+    display: inline-block;
+}
+
+li.inner-link {
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 5px;
+    height: 46px;
+}
+
+div>a{    
+    font-size: 0.8rem;
+}
+
+ul.none > li > div {
+    line-height:46px;
+    }
+
+li.inner-search {
+    margin: 0 0 0 15px;
+}
+
+form > p {
+    border-radius: 4px;
+    border: 1px solid #ff5c00;
+    position: relative;
+    padding-right: 30px;
+}
+.search-input {
+    cursor: text;
+    width: 236px;
+    height: 30px;
+    padding: 0 0 0 0.5em;
+    border: none;
+    outline: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.inner-search p .search-btn {
+    border: none;
+    outline: none;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.inner ul li > div > a {
+    display: inline-block;
+    vertical-align: middle;
+    line-height:18px;
+}
+
+a:link {
+    text-decoration: none;
+}
+li.inner-link a {
+    color: #ff5c00;
+}
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
